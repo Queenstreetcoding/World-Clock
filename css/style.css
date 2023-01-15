@@ -1,5 +1,7 @@
-h1, footer{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
 }
