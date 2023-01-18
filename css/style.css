@@ -1,7 +1,72 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 40px;
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(231, 248, 253);
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgb(37, 37, 37, 0.5);
+}
+
 h1 {
   text-align: center;
+  font-family: 'Source Serif Pro', serif;;
+  font-weight: 600;
+}
+
+select {
+  display: block;
+  margin: 0 0 10px 0;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Manrope', sans-serif;
+}
+
+h2 {
+  margin: 0 0 6px 0;
+}
+
+.city {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgb(196, 196, 196);
+}
+
+.city:last-child{
+  border: none;
+}
+
+.date{
+  color: rgb(95, 95, 95);
+}
+
+.time {
+ font-size: 30px;
+ font-weight: 700;
+}
+
+.time small {
+  font-size: 15px;
+  vertical-align: middle;
 }
 
 footer {
   text-align: center;
+  color: white;
+  padding: 20px;
 }
