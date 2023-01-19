@@ -10,10 +10,10 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   background-color: rgb(231, 248, 253);
-  padding: 25px;
+  padding: 15px;
   border-radius: 6px;
   box-shadow: 5px 5px 5px rgb(37, 37, 37, 0.5);
 }
@@ -69,8 +69,8 @@ img {
   display: block;
   margin: 0 auto;
   position: relative;
-  top: -200px;
-  left: 370px;
+  top: -190px;
+  left: 310px;
 }
 
 footer {
