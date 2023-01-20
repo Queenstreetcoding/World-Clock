@@ -69,8 +69,8 @@ img {
   display: block;
   margin: 0 auto;
   position: relative;
-  top: -232px;
-  left: 310px;
+  top: -268px;
+  left: 330px;
 }
 
 footer {
@@ -81,9 +81,13 @@ footer {
 }
 
 a:link {
-  color: white;
+  color: #202639;
 }
 
 a:visited{
   color: rgb(128, 127, 127);
+}
+
+.all {
+  font-size: 12px;
 }
