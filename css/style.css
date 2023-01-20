@@ -69,12 +69,20 @@ img {
   display: block;
   margin: 0 auto;
   position: relative;
-  top: -190px;
+  top: -186px;
   left: 310px;
 }
 
 footer {
   text-align: center;
   color: white;
-  padding: 20px;
+  padding: 15px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited{
+  columns: rgb(184, 184, 184);
 }
